@@ -4,12 +4,12 @@ import Image from 'next/image';
 
 export default function AboutTools() {
   const tools = [
-    { name: "React Native", icon: "/assets/tech/js.svg" },
+    { name: "React Native", icon: "/assets/tech/native.svg" },
     { name: "Flutter", icon: "/assets/tech/flutter.svg" },
-    { name: "MongoDB", icon: "/assets/tech/js.svg" },
-    { name: "Express.js", icon: "/assets/tech/nest.svg" },
-    { name: "Node.js", icon: "/assets/tech/nest.svg" },
-    { name: "Figma", icon: "/assets/tech/js.svg" }
+    { name: "MongoDB", icon: "/assets/tech/mongodb.svg" },
+    { name: "Express.js", icon: "/assets/tech/express.svg" },
+    { name: "Node.js", icon: "/assets/tech/node.svg" },
+    { name: "Figma", icon: "/assets/tech/figma.svg" }
   ];
 
   return (

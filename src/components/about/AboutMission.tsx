@@ -2,7 +2,7 @@
 
 export default function AboutMission() {
   return (
-    <section className="relative py-20 bg-black">
+    <section className="relative py-10 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto">
           {/* Our Mission Button */}
@@ -13,7 +13,7 @@ export default function AboutMission() {
           </div>
 
           {/* Heading */}
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium text-white mb-6 leading-tight">
             Building the Tech Foundation Behind Tomorrow's Startups
           </h2>
 
@@ -23,8 +23,8 @@ export default function AboutMission() {
           </p>
 
           {/* Green Vertical Line */}
-          <div className="flex justify-center mt-12">
-            <div className="w-0.5 h-24 bg-green-500/50"></div>
+          <div className="flex justify-center mt-8">
+            <div className="w-1 h-40 bg-gradient-to-b from-gray-900 to-green-500/50"></div>
           </div>
         </div>
       </div>
