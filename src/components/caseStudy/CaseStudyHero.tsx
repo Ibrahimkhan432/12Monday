@@ -58,7 +58,7 @@ export default function CaseStudyHero() {
                 <div className="relative bg-black rounded-[2.5rem] shadow-2xl">
                   <div className="bg-white rounded-[2rem] overflow-hidden aspect-[9/19.5]">
                     <Image
-                      src="/assets/portfolio/portfolio-15.jpeg"
+                      src="/assets/portfolio/cmobile.svg"
                       alt="Seerat Ki Duniya App"
                       width={250}
                       height={500}
