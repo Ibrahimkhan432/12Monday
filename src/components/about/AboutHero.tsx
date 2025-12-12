@@ -10,7 +10,7 @@ export default function AboutHero() {
 
   return (
     <section className="relative py-20 bg-black min-h-[80vh] flex items-center">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mt-20">
         <div className="text-center">
           {/* About Us Button */}
           <div className="flex justify-center mb-8">
@@ -25,7 +25,7 @@ export default function AboutHero() {
           </h1>
 
           {/* Description */}
-          <p className="text-lg md:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-12">
+          <p className="text-lg md:text-xl text-gray-300 max-w-5xl mx-auto leading-relaxed mb-12">
             We're passionate about building startups from scratch, specializing in mobile app development, web applications, and AI-powered solutions that drive business growth.
           </p>
         </div>

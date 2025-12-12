@@ -201,7 +201,7 @@ export default function ContactForm() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-green-500/30 text-white px-8 py-3 rounded-sm font-semibold hover:bg-green-600 transition-all duration-300 flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="bg-green-500/30 text-white px-8 py-3 rounded-2xl font-semibold hover:bg-green-600 transition-all duration-300 flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   Send Message
                 </button>

@@ -15,25 +15,17 @@ export default function About() {
     <div className="min-h-screen bg-black">
       <Header />
       
-      {/* Hero Section */}
       <AboutHero />
 
-      {/* Mission Section */}
       <AboutMission />
 
-      {/* Vision Section */}
       <AboutVision />
 
-      {/* Team Section */}
       <AboutTeam />
 
-      {/* Tools Section */}
       <AboutTools />
 
-      {/* Values Section */}
       <AboutValues />
-
-      {/* CTA Section */}
       <AboutCTA />
 
       <Footer />
